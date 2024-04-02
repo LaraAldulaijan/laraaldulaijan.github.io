@@ -2,9 +2,64 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Serif&family=Open+Sans&display=swap');
 
-html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
-    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    background-color: #AFC1E8;
+.logo {
+    height: 54px;
+    float: left;
+}
+
+.logo a img {
+    height: 100%;
+    width: auto;
+}
+
+.topbar {
+    height: 54px;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.navigation {
+    height: 54px;
+    text-align: right;
+}
+
+.navigation ul {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.item a {
+    color: black;
+    vertical-align: center;
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+}
+
+#intro-graphic {
+    width: 1120px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+#intro-graphic img {
+    height: auto;
+    width: 100%;
 }
