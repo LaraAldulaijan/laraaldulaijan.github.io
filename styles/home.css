@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    height: 54px;
+    float: left;
+}
+
+.logo a img {
+    height: 100%;
+    width: auto;
+}
+
+.topbar {
+    height: 54px;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.navigation {
+    height: 54px;
+    text-align: right;
+}
+
+.navigation ul {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.item a {
+    color: black;
+    vertical-align: center;
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+}
+
+#intro-graphic {
+    width: 1120px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+#intro-graphic img {
+    height: auto;
+    width: 100%;
+}
+
+.info-section {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+.paragraph {
+    width: 1120px;
+    margin: 0 auto;
+
+    font-family: "IBM Plex Serif";
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+}
+
+.text {
+    width: 1120px;
+    margin: 0 auto;
+
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.content img {
+    width: 100%;
+    padding-top: 120px;
+}
