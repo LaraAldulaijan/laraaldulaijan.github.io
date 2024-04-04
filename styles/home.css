@@ -67,7 +67,7 @@ body {
 .info-section {
     width: 100%;
     margin: 0 auto;
-    padding-top: 160px;
+    padding-top: 120px;
 }
 
 .paragraph {
@@ -94,5 +94,91 @@ body {
 
 .content img {
     width: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+#who-we-are {
     padding-top: 120px;
+}
+
+#what-we-do {
+    padding-bottom: 120px;
+}
+
+#lara-img {
+    height: 511px;
+    width: 472px;
+    padding-right: 20px;
+    padding-top: 120px;
+    margin-left: auto;
+}
+
+#orange-img {
+    height: 511px;
+    width: 584px;
+    padding-left: 20px;
+    padding-top: 120px;
+    margin-right: auto;
+}
+
+.column button {
+    background: none;
+    border: none;
+    height: 46px;
+    width: auto;
+    padding-top: 12px;
+}
+
+#grey-section {
+    height: 474px;
+    background: #F2F2F2;
+}
+
+#email-button {
+    width: 1120px;
+    padding-top: 24px;
+    padding-left: 60px;
+}
+
+#ux-ui-ven-diagram img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 170px;
+}
+
+.bottom-bar {
+    width: 1280px;
+    height: 170px;
+    background: linear-gradient(90deg, #25B6F5 2.1%, #3CD29C 100%);
+}
+
+.bottom-logo {
+    float: left;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 100px;
+}
+
+.bottom-links {
+    float: right;
+    padding-top: 45px;
+    padding-right: 100px;
+}
+
+.bottom-links img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+.linkedin-link a {
+    display: flex;
+}
+
+.instagram-link a {
+    display: flex;
 }
