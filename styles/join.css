@@ -73,15 +73,15 @@ body {
 }
 
 .timeline .graphic {
-    width: 1120px;
+    width: 1280px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 .timeline .graphic img {
     padding-right: 30px;
     padding-bottom: 100px;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 .contact-section .title {
